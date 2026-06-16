@@ -14,7 +14,6 @@
           [clearSearchOnAdd]="true"
           [hideSelected]="tags.length > 0"
           [addTag]="allowCreate ? createTagRef : false"
-          [searchFn]="customSearchFn"
           addTagText="Add tag"
           i18n-addTagText
           (add)="onAdd($event)"
